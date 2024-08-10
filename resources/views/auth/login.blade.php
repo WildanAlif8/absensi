@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
+    <title>Login</title>
     <!-- MDBootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css">
     <style>
@@ -32,7 +32,7 @@
                             <input type="password" name="password" id="password" class="form-control form-control-lg" value="{{ old('password') }}" placeholder=" " />
                             <label class="form-label" for="password">Password</label>
                         </div>
-                        
+
                         <!-- Submit button -->
                         <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
                     </form>
